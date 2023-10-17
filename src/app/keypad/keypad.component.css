@@ -1,0 +1,75 @@
+.keypadDiv{
+    background-color: hsl(223, 31%, 20%);
+    border-radius: 7px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.keyDiv{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.smallKey{
+    background-color: white;
+    width: 20%;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+}
+
+.bigKey{
+    background-color: red;
+    width: 40%;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+   
+}
+
+.keypadContainer{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.smallKeyDEL{
+    background-color: hsl(225, 21%, 49%);
+    width: 20%;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    color: white;
+}
+
+.bigKeyRESET{
+    background-color: hsl(225, 21%, 49%);
+    width: 40%;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    color: white;
+}
+

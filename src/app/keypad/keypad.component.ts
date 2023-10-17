@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-keypad',
@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./keypad.component.css']
 })
 export class KeypadComponent {
+
+  @Output() outputCharacter = new EventEmitter<string>()
+
+  pressKey(keyCharacter:string) {
+  this.outputCharacter.emit(keyCharacter)
+  }
+
+  
 
 }
