@@ -1,2 +1,2 @@
 # AngularCalculator
-#check Master branch for code
+# check Master branch for code
