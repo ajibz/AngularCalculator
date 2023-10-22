@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+.mainBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Outfit', sans-serif;
+}
+
